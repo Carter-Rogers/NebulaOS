@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nebula_OS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Nebula_OS.y9gaz1pwxl.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Nebula OS\\Nebula OS\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Nebula_OS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Nebula_OS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Nebula_OS.props",
+      "PackagePath": "build\\Nebula_OS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Nebula_OS.props",
+      "PackagePath": "buildMultiTargeting\\Nebula_OS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Nebula_OS.props",
+      "PackagePath": "buildTransitive\\Nebula_OS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

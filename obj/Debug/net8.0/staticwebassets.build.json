@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "sL3hBpZiqV5/6CKdoDr+ZY9C/4O4QqWCZrSLMGDQTrM=",
+  "Source": "Nebula_OS",
+  "BasePath": "_content/Nebula_OS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Nebula_OS\\wwwroot",
+      "Source": "Nebula_OS",
+      "ContentRoot": "D:\\Nebula OS\\Nebula OS\\wwwroot\\",
+      "BasePath": "_content/Nebula_OS",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Nebula_OS.styles.css",
+      "SourceId": "Nebula_OS",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Nebula_OS",
+      "RelativePath": "Nebula_OS#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "y9gaz1pwxl",
+      "Integrity": "GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Nebula_OS.styles.css"
+    },
+    {
+      "Identity": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nebula_OS.bundle.scp.css",
+      "SourceId": "Nebula_OS",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Nebula_OS",
+      "RelativePath": "Nebula_OS#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "y9gaz1pwxl",
+      "Integrity": "GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nebula_OS.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Nebula OS\\Nebula OS\\wwwroot\\app.css",
+      "SourceId": "Nebula_OS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Nebula OS\\Nebula OS\\wwwroot\\",
+      "BasePath": "_content/Nebula_OS",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zhr0tujz0v",
+      "Integrity": "yQ/c+HsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "D:\\Nebula OS\\Nebula OS\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yQ/c+HsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 02:08:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yQ/c+HsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ="
+        }
+      ]
+    },
+    {
+      "Route": "app.zhr0tujz0v.css",
+      "AssetFile": "D:\\Nebula OS\\Nebula OS\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yQ/c+HsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 02:08:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zhr0tujz0v"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yQ/c+HsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ="
+        }
+      ]
+    },
+    {
+      "Route": "Nebula_OS.bundle.scp.css",
+      "AssetFile": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nebula_OS.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 02:00:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4="
+        }
+      ]
+    },
+    {
+      "Route": "Nebula_OS.styles.css",
+      "AssetFile": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Nebula_OS.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 02:00:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4="
+        }
+      ]
+    },
+    {
+      "Route": "Nebula_OS.y9gaz1pwxl.bundle.scp.css",
+      "AssetFile": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nebula_OS.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 02:00:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y9gaz1pwxl"
+        },
+        {
+          "Name": "label",
+          "Value": "Nebula_OS.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4="
+        }
+      ]
+    },
+    {
+      "Route": "Nebula_OS.y9gaz1pwxl.styles.css",
+      "AssetFile": "D:\\Nebula OS\\Nebula OS\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Nebula_OS.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 02:00:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y9gaz1pwxl"
+        },
+        {
+          "Name": "label",
+          "Value": "Nebula_OS.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GljXwbr0WASoVqfFjJ99gq2m8z+s6Uz9PXBtT9nEKw4="
+        }
+      ]
+    }
+  ]
+}

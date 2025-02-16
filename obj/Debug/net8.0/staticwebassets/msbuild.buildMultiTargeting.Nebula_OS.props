@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Nebula_OS.props" />
+</Project>
