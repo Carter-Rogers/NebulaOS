@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nebula_OS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bab021d0071b7770de94f812d6cccb15ca6ad30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dce152cc2f1353414dfdf1ee4679c3c415934d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nebula_OS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nebula_OS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

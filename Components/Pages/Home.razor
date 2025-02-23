@@ -1,7 +1,66 @@
 ﻿@page "/"
+@using NebulaAPI.Data
+@using Nebula_OS.Components.Desktop
+@using Nebula_OS.Services
+@using Newtonsoft.Json
+@inject AuthenticationStateProvider AuthProvider
+@inject NavigationManager NavManager
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Nebula OS - Home</PageTitle>
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+@if (HttpContext.User.Identity.IsAuthenticated)
+{
+
+  <Desktop Uid="@Uid"/>
+
+
+}
+
+
+@code {
+  [CascadingParameter]
+  private HttpContext HttpContext { get; set; } = default!;
+
+  public string Uid { get; set; }
+
+  [Inject]
+  NebulaApiService ApiService { get; set; }
+
+
+  protected bool authenticated = false;
+
+  protected override async Task OnInitializedAsync()
+  {
+
+    var authState = await AuthProvider.GetAuthenticationStateAsync();
+    authenticated = authState.User.Identity.IsAuthenticated;
+
+    if (authenticated is false)
+    {
+
+      NavManager.NavigateTo("Account/Login");
+
+    }
+    else
+    {
+
+      var query = await ApiService.HttpClient.GetAsync($"User/GetUserByEmail?email={authState.User.Claims.FirstOrDefault(u => u.Type.EndsWith("name"))?.Value}");
+      var result = await query.Content.ReadAsStringAsync();
+      var response = JsonConvert.DeserializeObject<ApiResponse>(result);
+
+      if(response.IsSuccess)
+      {
+          var user = JsonConvert.DeserializeObject<NebulaAPI.Data.User>(response.Content);
+
+          Uid = user.Id.ToString();
+
+      }else
+      {
+        NavManager.NavigateTo("Account/Login");
+      }
+
+    }
+
+  }
+}

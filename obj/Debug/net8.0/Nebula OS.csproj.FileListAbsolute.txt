@@ -149,4 +149,25 @@ D:\Nebula OS\Nebula OS\obj\Debug\net8.0\refint\Nebula_OS.dll
 D:\Nebula OS\Nebula OS\obj\Debug\net8.0\Nebula_OS.pdb
 D:\Nebula OS\Nebula OS\obj\Debug\net8.0\Nebula OS.genruntimeconfig.cache
 D:\Nebula OS\Nebula OS\obj\Debug\net8.0\ref\Nebula_OS.dll
+D:\Nebula OS\Nebula OS\obj\Debug\net8.0\Nebula OS.sourcelink.json
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.JSInterop.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\MudBlazor.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\NebulaAPI.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\NebulaAPI.pdb
+D:\Nebula OS\Nebula OS\obj\Debug\net8.0\Nebula_OS.MvcApplicationPartsAssemblyInfo.cs
 D:\Nebula OS\Nebula OS\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\J2N.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Lucene.Net.dll
+D:\Nebula OS\Nebula OS\bin\Debug\net8.0\Microsoft.Playwright.dll

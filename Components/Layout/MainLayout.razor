@@ -1,9 +1,32 @@
-﻿@inherits LayoutComponentBase
+﻿@using Nebula_OS.Components.Components
+@inherits LayoutComponentBase
 
-@Body
+<MudThemeProvider />
 
-<div id="blazor-error-ui">
-    An unhandled error has occurred.
-    <a href="" class="reload">Reload</a>
-    <a class="dismiss">🗙</a>
-</div>
+<MudLayout Style="background: url('/desktop-bg.jpeg'); background-size: cover;">
+    <MudMainContent Style="padding-top: 0;">
+        
+        <MudGrid>
+            <MudItem xs="12" Style="@($"background-color: rgba(255, 255, 255, 0)")">
+                
+                <NavMenu/>
+
+            </MudItem>
+            <MudItem xs="12" Style="@($"background-color: rgba(255, 255,255, 0); height: 100%;  justify-content: center;")">
+                @Body
+            </MudItem>
+        </MudGrid>
+
+    </MudMainContent>
+</MudLayout>
+@code {
+    bool _drawerOpen = true;
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+
+
+
+}

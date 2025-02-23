@@ -9,6 +9,22 @@
       "PackagePath": "staticwebassets\\app.css"
     },
     {
+      "Id": "D:\\Nebula OS\\Nebula OS\\wwwroot\\desktop-bg.jpeg",
+      "PackagePath": "staticwebassets\\desktop-bg.jpeg"
+    },
+    {
+      "Id": "D:\\Nebula OS\\Nebula OS\\wwwroot\\desktop-bg.jpg",
+      "PackagePath": "staticwebassets\\desktop-bg.jpg"
+    },
+    {
+      "Id": "D:\\Nebula OS\\Nebula OS\\wwwroot\\googlereCaptcha.js",
+      "PackagePath": "staticwebassets\\googlereCaptcha.js"
+    },
+    {
+      "Id": "D:\\Nebula OS\\Nebula OS\\wwwroot\\interop.js",
+      "PackagePath": "staticwebassets\\interop.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Nebula_OS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

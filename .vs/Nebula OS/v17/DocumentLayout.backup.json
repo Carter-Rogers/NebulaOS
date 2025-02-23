@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "D:\\Nebula OS\\Nebula OS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\components\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\components\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\fileexplorer.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\fileexplorer.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\fileexplorer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\fileexplorer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\desktop\\desktop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\desktop\\desktop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\settings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\settings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\account\\shared\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\account\\shared\\redirecttologin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\settings.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\settings.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|d:\\nebula os\\nebula os\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59AF3E15-1D1A-406F-A4F3-0E8CE9CBD1DA}|Nebula OS.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FileExplorer.razor",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\FileExplorer.razor",
+              "RelativeDocumentMoniker": "Components\\FileExplorer.razor",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\FileExplorer.razor",
+              "RelativeToolTip": "Components\\FileExplorer.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T02:04:41.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "app.css",
-              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\wwwroot\\app.css",
-              "RelativeDocumentMoniker": "wwwroot\\app.css",
-              "ToolTip": "D:\\Nebula OS\\Nebula OS\\wwwroot\\app.css",
-              "RelativeToolTip": "wwwroot\\app.css",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwCwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-16T02:04:27.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RedirectToLogin.razor",
-              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Account\\Shared\\RedirectToLogin.razor",
-              "RelativeDocumentMoniker": "Components\\Account\\Shared\\RedirectToLogin.razor",
-              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Account\\Shared\\RedirectToLogin.razor",
-              "RelativeToolTip": "Components\\Account\\Shared\\RedirectToLogin.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T02:03:20.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "Components\\Routes.razor",
-              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Routes.razor",
-              "RelativeToolTip": "Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T02:02:21.166Z",
+              "WhenOpened": "2025-02-23T06:44:22.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.razor",
-              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\App.razor",
-              "RelativeDocumentMoniker": "Components\\App.razor",
-              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\App.razor",
-              "RelativeToolTip": "Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T02:02:18.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T02:02:09.487Z",
+              "Title": "FileExplorer.razor.cs",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\FileExplorer.razor.cs",
+              "RelativeDocumentMoniker": "Components\\FileExplorer.razor.cs",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\FileExplorer.razor.cs",
+              "RelativeToolTip": "Components\\FileExplorer.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T06:44:02.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Settings.razor.cs",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Settings.razor.cs",
+              "RelativeDocumentMoniker": "Components\\Settings.razor.cs",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Settings.razor.cs",
+              "RelativeToolTip": "Components\\Settings.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T06:40:14.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-23T06:13:10.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T06:10:25.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Components\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Components\\NavMenu.razor",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Components\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Components\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAADlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T03:39:59.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T03:36:01.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Settings.razor",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Settings.razor",
+              "RelativeDocumentMoniker": "Components\\Settings.razor",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Settings.razor",
+              "RelativeToolTip": "Components\\Settings.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T03:35:17.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Desktop.razor",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Components\\Desktop\\Desktop.razor",
+              "RelativeDocumentMoniker": "Components\\Desktop\\Desktop.razor",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\Components\\Desktop\\Desktop.razor",
+              "RelativeToolTip": "Components\\Desktop\\Desktop.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T03:35:56.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Nebula OS\\Nebula OS\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-23T06:13:20.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Nebula OS\\Nebula OS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Nebula OS\\Nebula OS\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T02:00:21.097Z",
+              "WhenOpened": "2025-02-23T06:13:46.492Z",
               "EditorCaption": ""
             }
           ]

@@ -1,1 +1,5 @@
 wwwroot\app.css
+wwwroot\desktop-bg.jpeg
+wwwroot\desktop-bg.jpg
+wwwroot\googlereCaptcha.js
+wwwroot\interop.js

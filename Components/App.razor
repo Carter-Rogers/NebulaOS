@@ -7,12 +7,40 @@
     <base href="/" />
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="Nebula OS.styles.css" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
+          <script type="text/javascript">
+          async function OpenSettingsDialog() {
+              const result = await DotNet.invokeMethodAsync('Nebula_OS', 'OpenSettingsWindow');
+          }
+
+          async function OpenExplorerDialog() {
+              const result = await DotNet.invokeMethodAsync('Nebula_OS', 'OpenExplorerWindow');
+          }
+      </script>
+    <meta charset="UTF-8">
     <HeadOutlet />
 </head>
 
-<body>
-    <Routes />
+<body style="overflow-y: hidden;">
+    <Routes/>
+
+
+        <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+                
     <script src="_framework/blazor.web.js"></script>
+
 </body>
 
 </html>
+
+@code {
+
+  [CascadingParameter]
+  private HttpContextAccessor HttpContext { get; set; } = default!;
+
+  private IComponentRenderMode? RenderModeForPage => HttpContext.HttpContext.Request.Path.StartsWithSegments("/Account")
+      ? null
+      : InteractiveServer;
+}

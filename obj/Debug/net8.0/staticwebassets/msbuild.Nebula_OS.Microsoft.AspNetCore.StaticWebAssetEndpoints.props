@@ -4,13 +4,61 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yQ/c\u002BHsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yQ/c\u002BHsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 02:08:49 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yQ/c\u002BHsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 03:24:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Nebula_OS/app.zhr0tujz0v.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zhr0tujz0v"},{"Name":"integrity","Value":"sha256-yQ/c\u002BHsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ="},{"Name":"label","Value":"_content/Nebula_OS/app.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yQ/c\u002BHsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 02:08:49 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2582"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yQ/c\u002BHsydMzo8xCmvPbWSTYFqSZ1ds9fkusGEpTOONQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 03:24:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Nebula_OS/desktop-bg.05gjbdvthu.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\desktop-bg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"05gjbdvthu"},{"Name":"integrity","Value":"sha256-dEcrVNpEcOECvdmojbHhy1/cPU7CmjG6cs0XOYQAHeI="},{"Name":"label","Value":"_content/Nebula_OS/desktop-bg.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1730370"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dEcrVNpEcOECvdmojbHhy1/cPU7CmjG6cs0XOYQAHeI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 05:53:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Nebula_OS/desktop-bg.ap20u8s4kg.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\desktop-bg.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ap20u8s4kg"},{"Name":"integrity","Value":"sha256-UjTnTqjP70OyRh8pO6snktVHLNWPvIM0NmyLI2ah04w="},{"Name":"label","Value":"_content/Nebula_OS/desktop-bg.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"334941"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022UjTnTqjP70OyRh8pO6snktVHLNWPvIM0NmyLI2ah04w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 06:00:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Nebula_OS/desktop-bg.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\desktop-bg.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UjTnTqjP70OyRh8pO6snktVHLNWPvIM0NmyLI2ah04w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"334941"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022UjTnTqjP70OyRh8pO6snktVHLNWPvIM0NmyLI2ah04w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 06:00:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Nebula_OS/desktop-bg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\desktop-bg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dEcrVNpEcOECvdmojbHhy1/cPU7CmjG6cs0XOYQAHeI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1730370"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022dEcrVNpEcOECvdmojbHhy1/cPU7CmjG6cs0XOYQAHeI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 05:53:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Nebula_OS/googlereCaptcha.hnbdkgplmd.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\googlereCaptcha.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hnbdkgplmd"},{"Name":"integrity","Value":"sha256-PSAiKhXJ\u002BS00j68jfX35SnLcChDuCcZ\u002BY\u002Bzwshs49lU="},{"Name":"label","Value":"_content/Nebula_OS/googlereCaptcha.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"256"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PSAiKhXJ\u002BS00j68jfX35SnLcChDuCcZ\u002BY\u002Bzwshs49lU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 18:01:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Nebula_OS/googlereCaptcha.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\googlereCaptcha.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PSAiKhXJ\u002BS00j68jfX35SnLcChDuCcZ\u002BY\u002Bzwshs49lU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"256"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022PSAiKhXJ\u002BS00j68jfX35SnLcChDuCcZ\u002BY\u002Bzwshs49lU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 18:01:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Nebula_OS/interop.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\interop.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-saUlMMR9xWAzmwgnnO/tKuRQlkQmpRpZz6GJzQGyYew="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1266"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022saUlMMR9xWAzmwgnnO/tKuRQlkQmpRpZz6GJzQGyYew=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 18:04:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Nebula_OS/interop.xojg62phk3.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\interop.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xojg62phk3"},{"Name":"integrity","Value":"sha256-saUlMMR9xWAzmwgnnO/tKuRQlkQmpRpZz6GJzQGyYew="},{"Name":"label","Value":"_content/Nebula_OS/interop.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1266"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022saUlMMR9xWAzmwgnnO/tKuRQlkQmpRpZz6GJzQGyYew=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 18:04:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Nebula_OS/Nebula_OS.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Nebula_OS.y9gaz1pwxl.bundle.scp.css'))</AssetFile>

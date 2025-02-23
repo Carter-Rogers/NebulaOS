@@ -1,0 +1,113 @@
+﻿@rendermode InteractiveServer
+@using NebulaAPI.Data
+@using Nebula_OS.Components.Components
+@using Nebula_OS.Services
+@using Newtonsoft.Json
+
+@if (Desktops is not null)
+{
+
+  if(CurrentDesktop == null)
+  {
+
+            <MudGrid Class="pa-4" Style="@($"color:{Colors.Green.Darken1}; height: 100vh; padding-left: 10px;")">
+      @foreach (NebulaAPI.Data.Desktop desktop in Desktops)
+      {
+        <MudItem xs="12" sm="6" md="4" >
+          <MudCard Style="background-color: rgba(255, 255, 255, 0.3)">
+
+            <MudCardContent>
+              <MudText Typo="Typo.h5">@desktop.Name</MudText>
+              <MudText Typo="Typo.body2">Your default desktop.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+              <MudButton Variant="Variant.Text" Color="Color.Primary" OnClick="() => SelectDesktop(desktop.Id)">Open</MudButton>
+              <MudButton Variant="Variant.Text" Color="Color.Primary">Delete</MudButton>
+            </MudCardActions>
+          </MudCard>
+        </MudItem>
+
+      }
+    </MudGrid>
+
+  }else
+  {
+            <MudGrid Class="pa-4" Style="@($"color:{Colors.Green.Darken1}; height: 100%; padding-left: 10px; width: 100%;")">
+            
+                <MudItem xs="12" Style="@($"height: 100vh; z-index: 2;")">
+                    <Settings>
+
+                    </Settings>    
+
+                    <FileExplorer>
+
+                    </FileExplorer>
+            </MudItem>
+       
+        </MudGrid>
+  }
+
+}
+else
+{
+  <p>Loading..</p>
+}
+
+
+@code {
+  [Parameter]
+  public string Uid { get; set; }
+
+  [Inject]
+  NebulaApiService ApiService { get; set; }
+
+  protected List<NebulaAPI.Data.Desktop> Desktops { get; set; }
+
+  protected int SelectedDesktop { get; set; } = -1;
+  protected NebulaAPI.Data.Desktop CurrentDesktop { get; set; } = null;
+
+  protected override async Task OnInitializedAsync()
+  {
+
+    try
+    {
+
+      var result = await ApiService.HttpClient.GetAsync($"Desktop/GetDesktops?OwnerId={Uid}");
+      var response = await result.Content.ReadAsStringAsync();
+      var responseObj = JsonConvert.DeserializeObject<ApiResponse>(response);
+
+      if (responseObj.IsSuccess)
+      {
+        Desktops = JsonConvert.DeserializeObject<List<NebulaAPI.Data.Desktop>>(responseObj.Content);
+      }
+
+    }catch(Exception e)
+    {
+      Console.WriteLine(e.Message);     
+    }
+
+
+  }
+
+  protected void Test()
+  {
+    Console.WriteLine("Test");
+  }
+
+  protected async Task SelectDesktop(int id)
+  {
+    SelectedDesktop = id;
+
+    var query = await ApiService.HttpClient.GetAsync($"Desktop/GetDesktop?id={id}");
+    var result = await query.Content.ReadAsStringAsync();
+    var response = JsonConvert.DeserializeObject<ApiResponse>(result);
+
+    if(response.IsSuccess)
+    {
+      CurrentDesktop = JsonConvert.DeserializeObject<NebulaAPI.Data.Desktop>(response.Content);
+      StateHasChanged();
+    }
+
+  }
+
+}
