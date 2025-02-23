@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Nebula OS/CopilotIndices/17.13.196.30798/CodeChunks.db-shm
+/obj/Debug/net8.0/Nebula OS.AssemblyInfo.cs
+/obj/Debug/net8.0/Nebula OS.AssemblyInfoInputs.cache
+/obj/Debug/net8.0/Nebula OS.csproj.AssemblyReference.cache
+/.vs/Nebula OS/CopilotIndices/17.13.196.30798/CodeChunks.db-wal
+/.vs/Nebula OS/CopilotIndices/17.13.196.30798/SemanticSymbols.db-shm
+/.vs/Nebula OS/CopilotIndices/17.13.196.30798/SemanticSymbols.db-wal
+/.vs/Nebula OS/FileContentIndex/51f71d9b-ab84-4d08-ba10-faf596885746.vsidx
+/.vs/Nebula OS/FileContentIndex/764bccde-d452-4c60-8abe-2ca4aa7bcc5a.vsidx
+/.vs/Nebula OS/v17/.suo
+/.vs/Nebula OS/v17/.wsuo
+/.vs/Nebula OS/v17/DocumentLayout.backup.json
+/.vs/Nebula OS/v17/DocumentLayout.json
+*.vsidx
+/.vs/ProjectSettings.json
+/.vs/Nebula OS/FileContentIndex/51f71d9b-ab84-4d08-ba10-faf596885746.vsidx
+/.vs/Nebula OS/FileContentIndex/51f71d9b-ab84-4d08-ba10-faf596885746.vsidx
+/.vs/Nebula OS/v17/.suo
+/.vs/Nebula OS/v17/DocumentLayout.backup.json
+/.vs/Nebula OS/v17/DocumentLayout.json
+/obj/Debug/net8.0/Nebula OS.AssemblyInfo.cs
+/obj/Debug/net8.0/Nebula OS.AssemblyInfoInputs.cache
+/obj/Debug/net8.0/Nebula OS.csproj.AssemblyReference.cache
